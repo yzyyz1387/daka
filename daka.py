@@ -15,7 +15,7 @@ import urllib.request
 from os.path import dirname
 
 date = time.strftime('%Y%m%d')
-LOGIN_URL = r'https://app.nwafu.edu.cn/uc/wap/login/check'  # 登录教务系统的URL,目的是获取cookie
+LOGIN_URL = r'https://app.nwafu.edu.cn/uc/wap/login/check'  # 登录app系统的URL,目的是获取cookie
 get_url = 'https://app.nwafu.edu.cn/ncov/wap/default/save'  # 利用cookie请求打卡地址
 headers = {'authority': 'app.nwafu.edu.cn', 'pragma': 'no-cache', 'cache-control': 'no-cache',
            'upgrade-insecure-requests': '1',
