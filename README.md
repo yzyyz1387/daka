@@ -5,7 +5,7 @@
 - 主文件 [`daka.py`](daka_old.py)
 - 数据文件 [`info.json`](info.json)
 - 获取经纬度及行政区划代码：[https://apis.map.qq.com/jsapi?qt=geoc&addr=地名](https://apis.map.qq.com/jsapi?qt=geoc&addr=地名)
-- 早期作品，代码很拉，将就看，仅供学习参考，项目雏形于2021年12月，原址[https://yzyyz.top/archives/eed1cf7f.html](https://yzyyz.top/archives/eed1cf7f.html)
+- `2022年8月13日`最新采用异步实现,~~早期代码很拉，将就看~~，仅供学习参考，项目雏形于2021年12月，原址[https://yzyyz.top/archives/eed1cf7f.html](https://yzyyz.top/archives/eed1cf7f.html)
 - 将其加入计划任务可实现自动打卡
 
 ## [info.json](info.json)
