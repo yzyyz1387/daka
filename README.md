@@ -1,4 +1,21 @@
-## 批量打卡项目
+## 目录
+<!-- TOC -->
+* [自动批量打卡项目]()
+  * [项目须知、说明](#须知、说明)
+  * [本地信息配置文件info.json](#infojson)
+  * [南校区范例](南校区范例)
+    * [注意`city`、`province`、`district` 必须带"市、省、区"](#-city--province--district----)
+  * [如何运行](#如何运行)
+  * [执行结果示例](#执行结果示例)
+  * [日志](#日志)
+  * [ToDo](#todo)
+  * [LICENSE](#license)
+  * [注意事项](#注意事项)
+<!-- TOC -->
+
+# 自动批量打卡项目
+
+## 须知、说明
 - app系统的地址是 [https://app.nwafu.edu.cn/uc/wap/login](https://app.nwafu.edu.cn/uc/wap/login)  
 - 打卡界面的地址是[https://app.nwafu.edu.cn/ncov/wap/default/index](https://app.nwafu.edu.cn/ncov/wap/default/index)
 - 环境python3.6+
@@ -7,6 +24,8 @@
 - 获取经纬度及行政区划代码：[https://apis.map.qq.com/jsapi?qt=geoc&addr=地名](https://apis.map.qq.com/jsapi?qt=geoc&addr=地名)
 - `2022年8月13日`最新采用异步实现,~~早期代码很拉，将就看~~，仅供学习参考，项目雏形于2021年12月，原址[https://yzyyz.top/archives/eed1cf7f.html](https://yzyyz.top/archives/eed1cf7f.html)
 - 将其加入计划任务可实现自动打卡
+
+
 
 ## [info.json](info.json)
 **`key`**: 学号  
@@ -34,6 +53,21 @@
 }
 
 ```
+## 如何运行
+首先克隆项目
+```bash
+git clone https://github.com/NWAFU-CP/daka.git
+````
+切换目录
+```bash
+cd daka
+````
+对`info.json`中的信息进行配置
+再执行daka.py
+```bash
+python daka.py
+````
+
 ## 执行结果示例
 ```
 2022-08-13 01:11:58,072-INFO: 本程序仅供学习使用，请遵守相关法律、规定，珍爱生命！对自己和他人负责！
@@ -54,5 +88,5 @@ INFO级别的日志输出在控制套
 [AGPL-3.0 license](LICENSE)
 
 ## 注意事项
-仅供学习交流，请遵守防疫规定，勿用于非法用途
+仅供学习交流，请遵守防疫规定，勿用于非法用途  
 以上
