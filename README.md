@@ -85,7 +85,7 @@ python daka.py
 
 ## 日志 
 DEBUG级别的日志会输出在`daka.log`文件中
-INFO级别的日志输出在控制套
+INFO级别的日志输出在控制台
 
 ## ToDo
 - [x] 异步实现
