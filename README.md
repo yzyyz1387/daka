@@ -62,7 +62,7 @@
 ## 如何运行
 首先克隆项目
 ```bash
-git clone https://github.com/NWAFU-CP/daka.git
+git clone https://github.com/yzyyz1387/daka.git
 ````
 切换目录
 ```bash
