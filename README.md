@@ -68,6 +68,11 @@ git clone https://github.com/NWAFU-CP/daka.git
 ```bash
 cd daka
 ````
+
+安装依赖
+```
+pip install -r requirements.txt
+```
 对`info.json`中的信息进行配置
 再执行daka.py
 ```bash
