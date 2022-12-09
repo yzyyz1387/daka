@@ -18,7 +18,7 @@
 <!-- TOC -->
 
 </details>
-<h2><img src="https://img.shields.io/github/stars/yzyyz1387/daka.svg?style=social">  打卡工作已于`2022年12月9日`停止，感谢陪伴</h2>
+<h2><img src="https://img.shields.io/github/stars/yzyyz1387/daka.svg?style=social">  打卡工作已于 2022年12月9 日停止，感谢陪伴</h2>
 
 # 自动批量打卡项目
 
