@@ -20,7 +20,7 @@
 </details>
 <h2><img src="https://img.shields.io/github/stars/yzyyz1387/daka.svg?style=social">  打卡工作已于 2022年12月9 日停止，感谢陪伴</h2>
 
-# 自动批量打卡项目
+# 自动批量打卡项目(自定义位置)
 
 ## 须知、说明
 - app系统的地址是 [https://app.nwafu.edu.cn/uc/wap/login](https://app.nwafu.edu.cn/uc/wap/login)  
